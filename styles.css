@@ -612,6 +612,9 @@ footer{
    margin-left:-70px;
   }
   /*showcases section*/
+  #showcase span.t{
+    display:none;
+  }
   #showcase{
     width:500px;
     height:300px;
