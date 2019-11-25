@@ -623,6 +623,9 @@ footer{
   .header1 .highlight{
    margin-left:-70px;
   }
+  .header1 span.hide{
+    display:none;
+  }
   /*showcases section*/
   #showcase span.t{
     display:none;
@@ -636,6 +639,9 @@ footer{
     width:500px;
     height:20px;
     margin-top:50px;
+  }
+  .image-text{
+    outline-style:none;
   }
   .formcontainer{
     left:180px;
