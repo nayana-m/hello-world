@@ -130,7 +130,7 @@ input[type=button] {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity:0.9;
+  filter:brightness(90%);
 }
 #showcase .read{
   color:white;
@@ -145,16 +145,31 @@ input[type=button] {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  outline-style:solid;
-  outline-width:1px;
+  /*outline-style:solid;
+  outline-width:1px;*/
+  border-left: 1px solid white;
+  border-right:1px solid white;
+  top:400px;
+  right:300px;
 }
+
 .image-text h1{
 text-decoration:underline red;
+display:flex;
+flex-direction:row;
+margin-top:-30px;
 
 }
-/*.image-text h1:first-child span.j{
-  text-decoration:underline blue;
-}*/
+.image-text h1:before, .image-text h1:after{
+  content:" ";
+  flex:1 1;
+  border-bottom:2px solid white;
+  margin:auto;
+}
+.read{
+  margin-bottom:-90px;
+  margin-top:10px;
+}
 .formcontainer {
   position: absolute;
   right: 1100px;
@@ -228,10 +243,10 @@ text-decoration:underline red;
   }
   #boxes .column{
    width:30%;
-    border: 1px solid black;
+    border: 1px solid grey;
     vertical-align:middle;
    /* border-left:1px solid black;*/
-    border-right:1px solid black;
+    border-right:1px solid grey;
     margin:10px;
     margin-left:10px;
     margin-right:10px;
@@ -251,7 +266,7 @@ text-decoration:underline red;
    margin-left:10px;
    padding:0 5px 5px 5px;
    
-   border: 1px solid black;
+   border: 1px solid grey;
    color:red;
  }
 #boxes h4{
@@ -638,17 +653,20 @@ footer{
     font-size:30px;
     width:500px;
     height:20px;
-    margin-top:50px;
+    margin-top:-280px;
+    margin-left:-250px;
+    flex:none;
+    display:block;
   }
   .image-text{
     outline-style:none;
   }
   .formcontainer{
     left:180px;
-    margin-left:-100px;
+    margin-left:-120px;
     width:500px;
     top:350px;
-    height:400px;
+    height:314px;
     padding:0 20px 20px 0;
   }
   .right h1{
