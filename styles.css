@@ -145,11 +145,16 @@ input[type=button] {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  outline-style:solid;
+  outline-width:1px;
 }
 .image-text h1{
 text-decoration:underline red;
 
 }
+/*.image-text h1:first-child span.j{
+  text-decoration:underline blue;
+}*/
 .formcontainer {
   position: absolute;
   right: 1100px;
@@ -194,7 +199,9 @@ text-decoration:underline red;
 .right p{
   text-align:justify;
 }
-
+.right h1 span.j{
+  text-decoration:underline red;
+}
 
 
 /*properties for box arrangement*/
@@ -350,9 +357,9 @@ list-style-type:none;
 #causes .z{
 text-align:center;
 }
-#causes h3{
+#causes h4{
 margin-left:0;
-text-decoration:underline red;
+/*text-decoration:underline red;*/
 }
 #causes h2{
   text-decoration:underline red;
@@ -368,7 +375,9 @@ text-decoration:underline red;
   
   padding-bottom:50px;*/
 
- 
+}
+.sub1 h4 span.j{
+  text-decoration:underline red;
 }
 .column6 p{
   text-align:justify;
@@ -405,7 +414,7 @@ text-decoration:underline red;
   text-align:justify;
 }
 #image .sub3 h2{
-  text-decoration:underline red;
+ /* text-decoration:underline red;*/
   margin-top:-270px;
   margin-left:900px;
 
@@ -413,6 +422,9 @@ text-decoration:underline red;
 #image .sub3 p{
   /*margin-top:-270px;*/
   margin-left:900px;
+}
+.sub3 h2 span.j{
+  text-decoration:underline red;
 }
  
 /*photo grid*/
@@ -769,7 +781,9 @@ footer{
 #volunteer .card h5{
   margin-left:120px;
 }
-
+#volunteer span.hide{
+  display:none;
+}
 
 
 
