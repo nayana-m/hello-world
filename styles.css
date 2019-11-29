@@ -23,9 +23,9 @@ header a{
   text-decoration:none;
 }
 header ul{
-list-style-type:none;
-padding:0;
-margin:0;
+  list-style-type:none;
+  padding:0;
+  margin:0;
 }
 header a{
   display:inline;
@@ -37,7 +37,7 @@ header nav{
   padding-right:350px;
 }
 header nav li:hover{
-background-color:red;
+  background-color:red;
 }
 header #q{
   padding-left:280px;
@@ -93,7 +93,7 @@ header #q{
   display: block;
 }
 .pages-content{
-background-color:grey;
+  background-color:grey;
 }
 input[type=button] {
   background-color:white;
@@ -137,10 +137,10 @@ input[type=button] {
   right:300px;
 }
 .image-text h1{
-text-decoration:underline red;
-display:flex;
-flex-direction:row;
-margin-top:-30px;
+  text-decoration:underline red;
+  display:flex;
+  flex-direction:row;
+  margin-top:-30px;
 }
 .image-text h1:before, .image-text h1:after{
   content:" ";
@@ -302,8 +302,8 @@ background-color:#f1f1f1;
   border: 0.2px solid  lightgrey;
 }
 #causes .row6 {
- background-color:white;
- margin-left:240px;
+  background-color:white;
+  margin-left:240px;
 }
 .row6:after{
   content: "";
