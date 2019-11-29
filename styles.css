@@ -5,11 +5,15 @@ body {
   font-size:15px;
   line-height:1.5;
 }
+
+
 .container{
   width:100%;
   margin:auto;
   overflow:hidden;
 }
+
+
 /* Style the header */
 header {
   background-color: black;
@@ -18,49 +22,71 @@ header {
   color:white;
   padding-bottom:20px;
 }
+
+
 header a{
   color:white;
   text-decoration:none;
 }
+
+
 header ul{
   list-style-type:none;
   padding:0;
   margin:0;
 }
+
+
 header a{
   display:inline;
   padding:0 20px 0 20px;
   list-style-type:none;
 }
+
+
 header nav{
   float:right;
   padding-right:350px;
 }
+
+
 header nav li:hover{
   background-color:red;
 }
+
+
 header #q{
   padding-left:280px;
   list-style-type:none;
   float:left;
 }
+
+
 .header1 nav{
   background-color:#f9f9f9;
   color:red;
 }
+
+
 .header1 ul{
   margin:0;
   padding:0;
   list-style-type:none;
 }
+
+
 .header1 li{
   float:left;
   margin-left:50px;
   padding:10px 1px 0 20px;
 }
+
+
 .header1 li a{
   display:block;
 }
+
+
 .header1 .highlight{
   margin-top: 20px;
   padding-bottom:10px;
@@ -70,6 +96,8 @@ header #q{
   margin-left:200px;
   padding-right:0;
 }
+
+
 .pages-content {
   display: none;
   position: absolute;
@@ -78,6 +106,8 @@ header #q{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
+
 .pages-content a {
   float: none;
   color: black;
@@ -86,15 +116,23 @@ header #q{
   display: block;
   text-align: left;
 }
+
+
 .pages-content a:hover {
   background-color: #ddd;
 }
+
+
 .pages:hover .pages-content {
   display: block;
 }
+
+
 .pages-content{
   background-color:grey;
 }
+
+
 input[type=button] {
   background-color:white;
   border:single;
@@ -107,6 +145,8 @@ input[type=button] {
   cursor: pointer;
   margin-left:10px;
 }
+
+
 /*setting the background image*/
 #showcase {
   background-image: url("imagess/slider.jpg");
@@ -118,12 +158,16 @@ input[type=button] {
   position: relative;
   filter:brightness(90%);
 }
+
+
 #showcase .read{
   color:white;
   border:single;
   background-color:transparent;
   padding:10px 32px;
 }
+
+
 .image-text {
   text-align: center;
   position: absolute;
@@ -136,22 +180,30 @@ input[type=button] {
   top:400px;
   right:300px;
 }
+
+
 .image-text h1{
   text-decoration:underline red;
   display:flex;
   flex-direction:row;
   margin-top:-30px;
 }
+
+
 .image-text h1:before, .image-text h1:after{
   content:" ";
   flex:1 1;
   border-bottom:2px solid white;
   margin:auto;
 }
+
+
 .read{
   margin-bottom:-90px;
   margin-top:10px;
 }
+
+
 .formcontainer {
   position: absolute;
   right: 1100px;
@@ -162,6 +214,8 @@ input[type=button] {
   padding: 18px;
   background-color: white;
 }
+
+
 /* Full-width input fields */
 .formcontainer input[type=text] {
   width: 90%;
@@ -170,6 +224,8 @@ input[type=button] {
   border: none;
   background: #f1f1f1;
 }
+
+
 /* Set a style for the submit button */
 .sbtn {
   background-color: red;
@@ -180,6 +236,8 @@ input[type=button] {
   width: 100%;
   opacity: 0.9;
 }
+
+
 /*text next to form*/
 .right {
   position:absolute;
@@ -189,12 +247,18 @@ input[type=button] {
   padding-left: 30px;
   padding-right:90px;
 }
+
+
 .right p{
   text-align:justify;
 }
+
+
 .right h1 span.j{
   text-decoration:underline red;
 }
+
+
 /*properties for box arrangement*/
 #boxes .container{
   width:60%;
@@ -202,19 +266,27 @@ input[type=button] {
   display:block;
   box-sizing:border-box;
 }
+
+
 #boxes{
   margin-top:300px;
   margin-bottom:100px;
 }
+
+
 #boxes .row1,.row2{
   margin:10px,10px,10px,10px;
   align-items:center;
 }
+
+
 #boxes .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+
 #boxes .column{
   width:30%;
   border: 1px solid grey;
@@ -226,74 +298,106 @@ input[type=button] {
   display:table;
   float:left;
 }
+
+
 #boxes .column:hover{
   border-color:red;
 }
+
+
 #boxes .column a:hover{
   color:white;
   background-color:red;
 }
+
+
 #boxes a{
   margin-left:10px;
   padding:0 5px 5px 5px;
   border: 1px solid grey;
   color:red;
 }
+
+
 #boxes h4{
   margin:30px;
   padding-top:0px;
   text-decoration:underline red;
 }
+
+
  /*about us Section*/
 .sub .column {
   float: left;
   width: 25%;
 }
+
+
 .y{
   margin-left:300px;
   border-top:1px solid red;
   border-bottom:1px solid red;
   margin-left:800px;
 }
+
+
 #about img{
   padding-bottom:80px;
   padding-left:40px;
   padding-right:40px;
 }
+
+
 #about h4,h3{
   text-decoration:underline red;
 }
+
+
 .sub .row:after {
   content: "";
   display: table;
   clear: both;
   padding-left:200px;
 }
+
+
 .sub{
 background-color:#f1f1f1;
 }
+
+
 .sub h2{
   text-decoration:underline red;
   text-align:center;
   margin-left:100px;
   padding-top:40px;
 }
+
+
 .sub p{
   text-align:justify;
   text-align:center;
 }
+
+
 #col1{
   padding-left:250px;
 }
+
+
 .sub #col1 p,h4{
   text-align:justify;
   margin-left:150px;
 }
+
+
 .sub #col2 p,h3{
   margin-right:150px;
   text-align:justify;
   margin-left:-20px;
 }
+
+
 /*causes section*/
 #causes .column6 {
   float: left;
@@ -301,59 +405,89 @@ background-color:#f1f1f1;
   margin:10px;
   border: 0.2px solid  lightgrey;
 }
+
+
 #causes .row6 {
   background-color:white;
   margin-left:240px;
 }
+
+
 .row6:after{
   content: "";
   display:table;
   clear:both;
 }
+
+
 #causes span.e
 {
   float:left;
   margin-right:100px;
 }
+
+
 #causes span.f{
   float:right;
 }
+
+
 #causes span.g{
   float:left;
   margin-right:150px;
   color:red;
 }
+
+
 #causes span.h{
   float:right;
   color:red;
 }
+
+
 #causes li{
   list-style-type:none;
 }
+
+
 #causes .z{
   text-align:center;
 }
+
+
 #causes h4{
   margin-left:0;
 }
+
+
 #causes h2{
   text-decoration:underline red;
   text-align:center;
   margin-left:130px;
 }
+
+
 #causes .flex-container1 {
   margin-left:150px;
 }
+
+
 .sub1 h4 span.j{
   text-decoration:underline red;
 }
+
+
 .column6 p{
   text-align:justify;
 }
+
+
 .sub1{
   padding-top:40px;
   padding-bottom:40px;
 }
+
+
 /* video section   */
 #image .sub3 img {
   margin-left:-500px;
@@ -364,6 +498,8 @@ background-color:#f1f1f1;
   padding-right:20px;
   margin-top:30px;
 }
+
+
 .sub3{
   background-color:black;
   color:white;
@@ -373,51 +509,75 @@ background-color:#f1f1f1;
   padding:40px;
   justify-content:space-around;
 }
+
+
 .sub3 p,h2{
   margin-left:30%;
   margin-right:320px;
   text-align:justify;
 }
+
+
 #image .sub3 h2{
   margin-top:-270px;
   margin-left:900px;
 }
+
+
 #image .sub3 p{
   margin-left:900px;
 }
+
+
 .sub3 h2 span.j{
   text-decoration:underline red;
 }
+
+
  /*photo grid*/
 #gallery .row1 {
   display: flex;
   flex-wrap:wrap;
 }
+
+
 .column1 {
   flex: 25%;
   max-width: 25%;
 }
+
+
 .column1 img {
   vertical-align: middle;
   width: 100%;
 }
+
+
 .sub4 h2{
   margin-left:130px;
   text-align:center;
   text-decoration:underline red;
 }
+
+
 .sub4 p{
   text-align:center;
 }
+
+
 .sub4{
   padding-top:40px;
   padding-bottom:40px;
 }
+
+
 /*volunteer section*/
 #volunteer .row{
   margin-left:290px;
   justify-items:center;
 }
+
+
 #volunteer .column{
   margin:10px;
   margin-left:10px;
@@ -425,121 +585,175 @@ background-color:#f1f1f1;
   display:table;
   float:left;
 }
+
+
 #volunteer h2{
   text-align:center;
   margin-left:0;
   text-decoration:underline red;
 }
+
+
 .sub5 h5,p{
   text-align:center;
 }
+
+
 #volunteer li{
   list-style-type:none;
   display:inline-block;
   padding-right:40px;
   color:grey;
 }
+
+
 #volunteer .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin:0px 20px 20px 0;
   font-family: arial;
 }
+
+
 #volunteer h5{
   margin-left:100px;
 }
+
+
 #volunteer h2{
   margin-left:130px;
   text-align:center;
   text-decoration:underline red;
 }
+
+
 .sub5{
   padding-top:40px;
 }
+
+
 /*last section above footer*/
 #last .row4{
   display:flex;
   flex-wrap:wrap;
   justify-content:space-evenly;
 }
+
+
 #last .column4 li{
   list-style-type:none;
   text-decoration:underline black;
 }
+
+
 #last .column4, .column5, .column3 h5{
   text-decoration:underline red;
 }
+
+
 #last .column5 li{
   list-style-type:none;
 }
+
+
 .row4 .column3 li{
   list-style-type:none;
 }
+
+
 #last .column5 li{
   text-decoration:underline black;
 }
+
+
 #last .column3 h4{
   text-decoration:underline red;
 }
+
+
 #last .column3 span.a:hover{
   background-color:orangered;
 }
+
+
 #last .column5 li:hover{
   color:red;
 }
+
+
 #last{
   background-color:gray;
   color:white;
 }
+
+
 #last span.a{
   width:100%;
   margin:5px;
   padding:5px;
   border:1px solid white;
 }
+
+
 #last .column3 li{
   margin:20px;
 }
+
+
 /*section for news letter*/
 #news{
   background-color:rgb(245,65,33);
   color:white;
 }
+
+
 #news h2{
   float:left;
   text-align:center;
   margin-left:250px;
   margin-top:30px;
 }
+
+
 #news form{
   margin-top:20px;
   float:right;
   padding:20px;
   width:auto;
 }
+
+
 #news input[type="text"]
 { padding:10px 32px;
   width:auto;
   margin-left:100px;
 }
+
+
 #news .button1{
   height:38px;
   background-color:rgb(245,65,33);
   color:white;
   margin-right:200px;
 }
+
+
 /*footer section*/
 footer{
   background-color:black;
   text-align:center;
   color:white;
 }
+
+
 /*media query*/
 @media only screen and (max-width: 500px) {
   /*header */
   header #q{
     padding-left:100px;
   }
+
+
   .navbar a{
     padding:20px 1px 5px 0px;
     display:block;
@@ -547,24 +761,36 @@ footer{
     float:left;
     overflow:auto;
   }
+
+
   .navbar nav{
     width:410px;
     padding-right:0px;
   }
+
+
   .header1 .highlight{
     margin-left:-70px;
   }
+
+
   .header1 span.hide{
     display:none;
   }
+
+
   /*showcases section*/
   #showcase span.t{
     display:none;
   }
+
+
   #showcase{
     width:500px;
     height:300px;
   }
+
+
   .image-text h1{
     font-size:30px;
     width:500px;
@@ -574,9 +800,13 @@ footer{
     flex:none;
     display:block;
   }
+
+
   .image-text{
     outline-style:none;
   }
+
+
   .formcontainer{
     left:180px;
     margin-left:-120px;
@@ -585,22 +815,30 @@ footer{
     height:314px;
     padding:0 20px 20px 0;
   }
+
+
   .right h1{
     margin-top:0px;
     margin-left:650px;
     width:400px;
     top:10px;
   }
+
+
   .right p{
     width:400px;
     margin-left:650px;
   }
+
+
   /*section boxes*/
   #boxes{
     margin:0px;
     padding:1px;
     width:100%;
   }
+
+
   #boxes .column{
     width:100%;
     display:block;
@@ -610,48 +848,72 @@ footer{
     padding-right:20px;
     padding-left:20px;
   }
+
+
   #boxes .row1{
     margin:0px;
     margin-top:700px;
   }
+
+
   /*section about*/
   #about h2{
     margin-left:60px;
     width:80px;
   }
+
+
   #about{
     float:none;
     width:100%;
   }
+
+
   #about .column{
     width:100%;
     display:block;
   }
+
+
   #about p{
     text-align:left
   }
+
+
   #about #col2.column{
     margin-left:60px;
   }
+
+
   #about #col1.column{
     margin-left:-360px;
   }
+
+
   #about .sub #k{
     width:300px;
     margin-left:50px;
   }
+
+
   /*causes section*/
   #causes .column6{
     margin-left:-330px;
     width:380px;
   }
+
+
   #causes .sub1 #m {
     margin-left:60px;
     width:300px;
   }
+
+
   #causes span.g{
     margin-right:200px;
   }
+
+
   /*video section*/
   #image{
     float:none;
@@ -659,22 +921,32 @@ footer{
     flex:100%;
     flex-wrap:wrap;
   }
+
+
   #image .sub3{
     height:700px;
   }
+
+
   #image .sub3 img{
     width:350px;
     margin-left:50px;
   }
+
+
   #image .sub3 p{
     margin-left:337px;
     width:353px;
     text-align:justify-content;
   }
+
+
   #image .sub3 h2{
     margin-top:-100px;
     margin-left:337px;
   }
+
+
   /*gallery section*/
   #galley{
     width:100%;
@@ -682,14 +954,20 @@ footer{
     padding:0px;
     flex-wrap:wrap;
   }
+
+
   #gallery .sub4 p{
     width:300px;
     margin-left:50px;
   }
+
+
   #gallery .column1{
     flex:100%;
     max-width:100%;
   }
+
+
   #gallery .sub4 h2,#causes .sub1 h2,#about .sub h2,
   #volunteer .sub5 h2{
     font-size:18px;
@@ -698,31 +976,47 @@ footer{
     margin-left:40px;
     flex-flow:hidden;
   }
+
+
   /*volunteer section*/
   #volunteer .column{
     width:100%;
     display:block-inline;
   }
+
+
   #volunteer .card{
     margin-left:-200px;
   }
+
+
   #volunteer .sub5 p{
     margin-left:50px;
   }
+
+
   #volunteer .card h5{
     margin-left:120px;
   }
+
+
   #volunteer span.hide{
     display:none;
   }
+
+
   /*last section above footer*/
   #last .column4,.column3,.column5{
     flex:100%;
     max-width:100%;
   }
+
+
   #last .column3{
     margin-left:-50px;
   }
+
+
   /*news letter section*/
   #news .signup h2{
     width:400px;
@@ -730,6 +1024,8 @@ footer{
     font-size:30px;
     padding-bottom:0px;
   }
+
+
   #news .signup input{
     width:300px;
     padding-left:104px;
@@ -740,6 +1036,8 @@ footer{
     margin-bottom:18px;
     margin-right:0px;
   }
+
+  
   #news .signup .button1{
     padding-left:20px;
     margin-left:211px;
